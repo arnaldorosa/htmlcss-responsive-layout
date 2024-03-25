@@ -8,3 +8,116 @@
 body {
     font-family: sans-serif;
 }
+
+
+
+/*********** HEADER *************/
+.header {
+    background-color: green;
+    height: 80px;
+}
+  
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+  
+.nav-bar {
+    display: none;
+}
+
+
+/*********** MAIN *************/
+.row  {
+    margin: 10px 0;
+}
+
+.content-left,
+.content-right {
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.second-row .informations {
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.planning {
+    padding: 20px 0;
+    background-color: crimson;
+}
+
+.strategic-planning {
+    margin-bottom: 1rem;
+    /* debug */
+    background-color: orange;
+    height: 200px;
+}
+
+.app-planning {
+    background-color: orange;
+    /* debug */
+    height: 200px;
+}
+
+.partner {
+    padding: 20px 0;
+}
+
+
+.testimonial {
+    /* debug */
+    height: 100px;
+    background-color: crimson;
+}
+
+.partners-card {
+    padding: 20px 0;
+}
+
+.card {
+    margin: 10px 0;
+    background-color: orange;
+    /* debug */
+    height: 100px;
+}
+
+
+
+
+
+
+
+/*********** RESPONSIVE *************/
+@media screen and (min-width: 769px) {
+    /* GENERAL */
+    .container {
+        width: 95%;
+    }
+
+    /* MAIN */
+    .demo .row {
+        display: flex;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .content-left {
+        width: 67%;
+    }
+
+    .content-right {
+        width: 33%;
+    }
+
+    .second-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .informations {
+        width: calc(100% / 3);
+    }
+}
