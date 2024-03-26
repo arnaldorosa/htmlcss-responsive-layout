@@ -4,84 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Responsive Layout</title>
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
-        <div class="container">
-            <div class="header-menu">
-                <div class="logo">Logo</div>
-                <div class="menu">
-                    <a href="">
-                        menu
-                    </a>
-                </div>
-                <nav class="nav-bar">
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                    <a href="">link</a>
-                </nav>
+    <header>
+        <div class="header">
+            <div><img src="./logo.png" alt="logo"></div>
+            <div class="bottom-header">
+                <ul>
+                    <li><a href="link">Planning</a></li>
+                    <li><a href="link">Testimonials</a></li>
+                    <li><a href="link">Features</a></li>
+                    <li><a href="link">About us</a></li>
+                    <li class="white-button"><a href="start">Get Started</a></li>
+                </ul>
             </div>
+            <i class="fa-solid fa-bars"></i>
         </div>
     </header>
     <!-- /HEADER -->
 
-
     <!-- MAIN -->
-        <section class="demo">
-            <div class="container">
-                <div class="row">
-                    <div class="content-left">
-                        1
+    <main>
+        <section >
+            <div class="card-group">
+                <div class="top">
+                    <div class="card large">
+                        <div class="top-card-large">
+                            <h3>Get a demo application</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere officiis id ipsam ipsa unde nam quidem impedit exercitationem itaque in.</p>
+                            <div class="button"><i class="fa-brands fa-apple" id="apple"></i> App Store</div>
+                        </div>
+                        <div class="bot-card-large">
+                            <img src="./phone.png" alt="">
+                        </div>
                     </div>
-                    <div class="content-right">
-                        2
+
+                    <div class="card small">
+                        <div class="top-card">
+                            <i class="fa-solid fa-file-code"></i>
+                            <h3>Clean Code</h3>
+                        </div>
+                        <div class="bot-card"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolorem nemo, tempora necessitatibus animi eaque ex reiciendis facere nostrum, esse accusantium! Iusto ratione omnis inventore.</p></div>
                     </div>
+
                 </div>
-                <div class="second-row">
-                    <div class="informations">
-                        3
+                <div class="bot">
+                    <div class="card">
+                        <div class="top-card">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <h3>Web Design</h3>
+                        </div>
+                        <div class="bot-card"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium harum nesciunt labore atque! Numquam ea eum eaque aut, nemo impedit doloribus blanditiis laborum necessitatibus similique!</p></div>
                     </div>
-                    <div class="informations">
-                        4
-                    </div>
-                    <div class="informations">
-                        5
+
+                    <div class="card">
+                        <div class="top-card">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Development</h3>
+                        </div>
+                        <div class="bot-card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo veniam provident vitae mollitia eos! Unde quasi sapiente suscipit mollitia non quae voluptates, nobis blanditiis vero?</p></div>
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h3>Branding</h3>
+                        </div>
+                        <div class="bot-card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione atque impedit. Veritatis, excepturi corrupti iusto voluptatem, nihil eum in rem, iure dignissimos delectus quam!</p></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="planning">
-            <div class="container">
-                <div class="strategic-planning">
-                    6
+        <section class="bg-lilla">
+            <div class="strategic-planner">
+                <div class="strategic-card">
+                    <img src="./planning1.png" alt="">
+                    <h3>Strategic Planning</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio quae assumenda soluta consequatur explicabo inventore atque. Cupiditate iste adipisci vel at doloribus ex dolores natus tenetur, consectetur voluptatem quos ducimus illo facere eius? Aliquid?</p>
                 </div>
-                <div class="app-planning">
-                    7
+               
+                <div class="app-develop">
+                    <div class="app-develop-container">
+                        <img src="./planning2.png" alt="">
+                        <h3>App Development</h3>
+                        <p><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
+                        <div class="circle">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="partner">
-            <div class="container">
-                <div class="testimonial"></div>
-                <div class="partners-card">
-                    <div class="card"></div>
-                    <div class="card"></div>
-                    <div class="card"></div>
+        <section>
+            <div class="container-sec3">
+                <div class="card-text">
+                    <span>TESTIMONIALS</span>
+                    <h3>We are committed expert partners</h3>
+                    <p>We place huge value on strong <br>
+                        relationships and have seen the
+                        benefit <br> they bring to our business.
+                        Customer <br> feedback is vital in
+                        helping us <br> to get it right.
+                    </p>
+                </div>
+                <div class="card-testimonial">
+                    <div class="img-radius">
+                        <img src="./testimonial1.jpg" alt="">
+                    </div>
+                    <div class="text-testimonials">
+                        <p class="testimonial-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis libero, dolore et beatae ut totam rem fugiat, odio cum sint iste temporibus eligendi, rerum nihil velit cumque accusantium minima aliquam.</p>
+                        <h4>NAT REYNOLDS</h4>
+                    </div>
+                </div>
+                
+                <div class="card-testimonial">
+                    <div class="img-radius">
+                        <img src="./testimonial2.jpg" alt="">
+                    </div>
+                    <div class="text-testimonials">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eos excepturi, repellat eius quasi, qui aspernatur quibusdam corporis molestias, necessitatibus mollitia molestiae expedita reiciendis delectus adipisci recusandae rem nesciunt provident!</p>
+                        <h4>CELIA ALMEDA</h4>
+                    </div>
+                </div>
+                <div class="card-testimonial">
+                    <div class="img-radius">
+                        <img src="./testimonial3.jpg" alt="">
+                    </div>
+                    <div class="text-testimonials">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorum natus nihil eligendi et dolores provident eius. Voluptatum nihil officiis id unde fuga, voluptas quia consectetur quod sed, deserunt facilis!</p>
+                        <h4>BOB ROBERTS</h4>
+                    </div>
                 </div>
             </div>
         </section>
-    <!-- /MAIN -->
+    
     
 
-    <!-- FOOTER -->
-    <footer></footer>
-    <!-- /FOOTER -->
+    <section>
+        <div class="container-sec4">
+            <div class="benefits"></div>
+            <div class="benefits"></div>
+            <div class="benefits"></div>
+            <div class="benefits"></div>
+            <div class="benefits"></div>
+            <div class="benefits"></div>
+        </div>
+    </section>
 
+    <section>
+        <div class="about-us">
+                <div class="container-sec5">
+                    <div class="text"></div>
+                    <div class="img"></div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="get-start">
+                <div class="container-sec6">
+                    <div></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<!-- /MAIN  -->
+
+<!-- FOOTER  -->
+<footer>
+    <div class="container-footer">
+        <div class="card-footer"></div>
+        <div class="card-footer"></div>
+    </div>
+</footer>
+<!-- /FOOTER  -->
+    
+    
+
+    
 </body>
 </html>
